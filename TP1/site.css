@@ -1,0 +1,44 @@
+body {
+    display: flex; /* Utilisation de Flexbox pour centrer le contenu */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    height: 100vh; /* Hauteur de la fenêtre d'affichage */
+    margin: 0; /* Suppression des marges par défaut */
+    font-family: Arial, sans-serif; /* Police de caractères */
+    background-color: #f4f4f4; /* Couleur de fond */
+    margin: 0; /* Suppression des marges par défaut */
+    font-family: Arial, sans-serif; /* Police de caractères */
+    background-image: url('bckgrd_img.jpg'); /* Chemin vers votre image de fond */
+    background-size: cover; /* Couvre toute la surface du corps */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-attachment: fixed; /* Fixe l'image en arrière-plan lors du défilement */
+}
+
+h1{
+    color: #ffea00;
+}
+
+/* Style du conteneur principal */
+.all {
+    text-align: center; /* Centrage du texte à l'intérieur du conteneur */
+}
+
+/* Style du conteneur des liens */
+.box {
+    margin-top: 20px; /* Espacement entre le titre et les liens */
+}
+
+/* Style des liens */
+.box a {
+    display: block; /* Affichage en bloc pour empiler les liens */
+    margin: 10px 0; /* Espacement vertical entre les liens */
+    text-decoration: none; /* Suppression du soulignement */
+    color: #ffea00; /* Couleur du texte */
+    font-size: 18px; /* Taille de la police */
+}
+
+/* Style des liens au survol */
+.box a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
